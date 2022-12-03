@@ -1,0 +1,15 @@
+{
+	"meta": {
+		"admin_address": "0x000000000000000000000000000000000000dEaD",
+		"name": "test-name",
+		"description": "test-description",
+		"url": "https://1notif.net"
+	},
+	"molecule": {
+		"endpoint": "http://evm.molecule.sh",
+		"signature_message": "message",
+		"signatures": []
+	},
+	"notifications": [],
+	"subscribers": ["0x000000000000000000000000000000000000dEaD"],
+}
