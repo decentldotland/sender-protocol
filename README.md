@@ -37,7 +37,10 @@ Simplified Architecture Overview
 1notif channels are smart contracts deployed by Dapps developer via 1notif SDK (soon) to push notifications to a channel's `subscribers` in a gasless, immediate and onchain manner.
 
 #### 1) x-EVM Channel
-This `channel` template provides OOTB support for pushing notifications from Dapp's backends to any channel's subscriber EOA EVM address regardless of the EVM chain. check the [source-code](./contracts/source-codes/evm-channel.js) | [state](./contracts/source-codes/evm-channel.json)
+This `channel` template provides OOTB support for pushing notifications from Dapp's backends to any channel's subscriber EOA EVM address regardless of the EVM chain. check the [source-code](./contracts/source-codes/evm-channel.js) | [state](./contracts/states/evm-channel.json)
+
+#### 2) Arweave Channel
+Arweave `channel` smart contract is a special template for the Dapps built on the Arweave blockchain. check the [source-code](./contracts/source-codes/arweave-channel.js) | [state](./contracts/states/arweave-channel.json)
 
 Follow Us
 =========
