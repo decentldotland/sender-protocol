@@ -43,7 +43,7 @@ This `channel` template provides OOTB support for pushing notifications from Dap
 Arweave `channel` smart contract is a special template for the Dapps built on the Arweave blockchain. check the [source-code](./contracts/source-codes/arweave-channel.js) | [state](./contracts/states/arweave-channel.json)
 
 #### 3) Solana Channel
-Solana `channel` smart contract is a template dedicated for Solana notification pushing. check the [source-code](./contracts/source-codes/solana-channel.js) | [state](./contracts/states/solana-channel.json)
+Solana `channel` smart contract is a template dedicated for Solana notification pushing. check the [source-code](./contracts/source-codes/sol-channel.js) | [state](./contracts/states/sol-channel.json)
 
 Follow Us
 =========
