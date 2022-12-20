@@ -39,11 +39,14 @@ Simplified Architecture Overview
 #### 1) x-EVM Channel
 This `channel` template provides OOTB support for pushing notifications from Dapp's backends to any channel's subscriber EOA EVM address regardless of the EVM chain. check the [source-code](./contracts/source-codes/evm-channel.js) | [state](./contracts/states/evm-channel.json)
 
-#### 2) Arweave Channel
+#### 2) [Arweave](https://arweave.org) Channel
 Arweave `channel` smart contract is a special template for the Dapps built on the Arweave blockchain. check the [source-code](./contracts/source-codes/arweave-channel.js) | [state](./contracts/states/arweave-channel.json)
 
-#### 3) Solana Channel
-Solana `channel` smart contract is a template dedicated for Solana notification pushing. check the [source-code](./contracts/source-codes/sol-channel.js) | [state](./contracts/states/sol-channel.json)
+#### 3) [Solana](https://solana.com/) Channel
+Solana channel smart contract is a template dedicated for Solana notification pushing. check the [source-code](./contracts/source-codes/sol-channel.js) | [state](./contracts/states/sol-channel.json)
+
+#### 4) [Zilliqa](https://www.zilliqa.com/) Channel
+Zilliq channel smart contract is a template dedicated for Zillqa notification pushing. check the [source-code](./contracts/source-codes/zil-channel.js) | [state](./contracts/states/zil-channel.json)
 
 Follow Us
 =========
