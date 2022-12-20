@@ -1,0 +1,15 @@
+{
+	"meta": {
+		"admin_address": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+		"name": "test-name",
+		"description": "test-description",
+		"url": "https://1notif.net"
+	},
+	"molecule": {
+		"endpoint": "http://zil.molecule.sh",
+		"signature_message": "message",
+		"signatures": []
+	},
+	"notifications": [],
+	"subscribers": ["xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"],
+}
