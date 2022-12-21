@@ -45,7 +45,7 @@ Arweave `channel` smart contract is a special template for the Dapps built on th
 #### 3) [Solana](https://solana.com/) Channel
 Solana channel smart contract is a template dedicated for Solana notification pushing. check the [source-code](./contracts/source-codes/sol-channel.js) | [state](./contracts/states/sol-channel.json)
 
-#### 4) [Zilliqa](https://www.zilliqa.com/) Channel https://tron.network/
+#### 4) [Zilliqa](https://www.zilliqa.com/) Channel
 Zilliqa channel smart contract is a template dedicated for Zillqa notification pushing. check the [source-code](./contracts/source-codes/zil-channel.js) | [state](./contracts/states/zil-channel.json)
 
 #### 5) [Tron](https://tron.network/) Channel 
