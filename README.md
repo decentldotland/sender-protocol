@@ -54,6 +54,8 @@ Tron channel smart contract is a template dedicated for Tron notification pushin
 #### 6) [Stacks](https://stacks.co/) Channel 
 Stacks channel smart contract is a template dedicated for Stacks notification pushing. check the [source-code](./contracts/source-codes/stacks-channel.js) | [state](./contracts/states/stacks-channel.json)
 
+#### 7) [Internet Computer - ICP](https://internetcomputer.org/) Channel 
+ICP channel smart contract is a template dedicated for ICP notification pushing. check the [source-code](./contracts/source-codes/icp-channel.js) | [state](./contracts/states/icp-channel.json)
 
 Follow Us
 =========
