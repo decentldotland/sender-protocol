@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "admin_address": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "near_registry_address": "near-contract-address",
+    "name": "test-name",
+    "description": "test-description",
+    "url": "https://1notif.net"
+  },
+  "molecule": {
+    "evm_endpoint": "http://evm.molecule.sh",
+    "near_endpoint": "http://near.molecule.sh",
+    "signature_message": "message",
+    "signatures": []
+  },
+  "notifications": []
+}
