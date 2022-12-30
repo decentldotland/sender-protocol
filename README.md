@@ -57,6 +57,16 @@ Stacks channel smart contract is a template dedicated for Stacks notification pu
 #### 7) [Internet Computer - ICP](https://internetcomputer.org/) Channel 
 ICP channel smart contract is a template dedicated for ICP notification pushing. check the [source-code](./contracts/source-codes/icp-channel.js) | [state](./contracts/states/icp-channel.json)
 
+#### 8) [Near Blockchain](https://near.org) Channel
+Due to the current molecule.sh limitations, Near channels have a different approach to push notifications. The Channel is composed of 2 parts, the user's subscription happens on a Near registry contract, and the notification pushing happens on EXM contract owned by the Channel owner. The flow is as follow:
+* Subscribers would first need to register their address with the NEAR contract. This can be done by sending a transaction to the contract.
+* The notification channel owner would then use the EXM contract to send notifications to the subscribers. The EXM contract can fetch the list of subscriber addresses and would be responsible for pushing the notifications to these addresses.
+* When a notification is sent, the EXM contract would iterate through the list of subscriber addresses and send the notification to each address according to the notification settings.
+
+* Subscribers would be able to opt out of receiving notifications at any time by unregistering their address from the NEAR contract.
+
+EXM Channel can be found [here](./contracts/source-codes/near-channel.js) and Near contract template [here](./contracts/near-contracts/user-actions.ts)
+
 Follow Us
 =========
 - [Twitter](https://twitter.com/1notif)
