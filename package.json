@@ -6,13 +6,13 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1notif/1notif-protocol.git"
+    "url": "git+https://github.com/decentldotland/1notif-protocol.git"
   },
   "keywords": ["notification", "EVM"],
   "author": "",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/1notif/1notif-protocol/issues"
+    "url": "https://github.com/decentldotland/1notif-protocol/issues"
   },
-  "homepage": "https://github.com/1notif/1notif-protocol#readme"
+  "homepage": "https://github.com/decentldotland/1notif-protocol#readme"
 }
