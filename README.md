@@ -1,14 +1,14 @@
-Introduction
+
 <p align="center">
   <a href="http://sender.gg">
-    <img src="./img/sender.png" height="200">
+    <img src="./img/sender.png" height="275">
   </a>
   <h3 align="center"><code>@decentdotland/sender-protocol</code></h3>
   <p align="center">multichain gasless notitfication protocol</p>
 </p>
 
 
-
+Introduction
 ============
 
 [Sender Protocol](http://sender.gg) (previously 1notif protocol) is an OOTB (Out-Of-The-Box), gasless and immediate notification protocol. Due to the used Tech-Stack and the infrastructure architecture created by Sender Protocol, the protocol provides OOTB support to any EVM blockchain.
