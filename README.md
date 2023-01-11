@@ -1,7 +1,17 @@
 Introduction
+<p align="center">
+  <a href="http://sender.gg">
+    <img src="./img/sender.png" height="200">
+  </a>
+  <h3 align="center"><code>@decentdotland/sender-protocol</code></h3>
+  <p align="center">multichain gasless notitfication protocol</p>
+</p>
+
+
+
 ============
 
-[1notif](https://1notif.net) is an OOTB (Out-Of-The-Box), gasless and immediate notification protocol. Due to the used Tech-Stack and the infrastructure architecture created by 1notif, the protocol provides OOTB support to any EVM blockchain.
+[Sender Protocol](http://sender.gg) (previously 1notif protocol) is an OOTB (Out-Of-The-Box), gasless and immediate notification protocol. Due to the used Tech-Stack and the infrastructure architecture created by Sender Protocol, the protocol provides OOTB support to any EVM blockchain.
 
 Tech-Stack
 ==========
@@ -16,25 +26,25 @@ Simplified Architecture Overview
 
 - Input Layer: web2 or web3 events (server, frontend, smart contract)
 - Execution Layer: 
-	- **low-level**: 1notif channels (permission-less functions, smart contracts) deployed on EXM.
+	- **low-level**: Sender channels (permission-less functions, smart contracts) deployed on EXM.
 	- **intermediate-level**: Storage - Arweave
-	- **high-level**: 1notif SDK
+	- **high-level**: Sender SDK
 - Output Layer: client-side (integrated channels across D/Apps)
 
-1notif Smart Contracts
+Sender Protocol Smart Contracts
 ======================
 ## EXM Briefly:
-1notif protocol is composed of a set of smart contracts deployed on the EXM protocol. Briefly, EXM smart contracts are serverless and the final states are lazy evaluated (Lazy Evaluation), the contract state is cashed on centralized servers (EXM side with Verifiable Computing) that provide the instant finality & evaluation features of EXM protocol. [Read more about how EXM works here.](https://communitylabs.medium.com/execution-machine-explained-b6ca32d884d1)
+Sender Protocol is composed of a set of smart contracts deployed on the EXM protocol. Briefly, EXM smart contracts are serverless and the final states are lazy evaluated (Lazy Evaluation), the contract state is cashed on centralized servers (EXM side with Verifiable Computing) that provide the instant finality & evaluation features of EXM protocol. [Read more about how EXM works here.](https://communitylabs.medium.com/execution-machine-explained-b6ca32d884d1)
 
 ![](https://miro.medium.com/max/828/1*f4VCJAxmJgw87ZI2ClYsRw.webp)
 
-## 1notif Smart Contracts Architecture
+## Sender Protocol Smart Contracts Architecture
 
-### Channels Registry Contract (CRC):
-[1notif resolver](https://github.com/1notif/1notif-resolver) (CRC) is a simple name system resolver for the serverless functions deployed on EXM. We plan to use 1notif resolver to create a naming system dedicated to 1notif protocol channels. 
+### Channels Registry Contract (CRC): WIP
+Sender resolver (CRC) is a simple name system resolver for the serverless functions deployed on EXM. We plan to use Sender resolver to create a naming system dedicated to Sender protocol channels. 
 
 ### Channels
-1notif channels are smart contracts deployed by Dapps developer via 1notif SDK (soon) to push notifications to a channel's `subscribers` in a gasless, immediate and onchain manner.
+Sender channels are smart contracts deployed by Dapps developer via Sender SDK (soon) to push notifications to a channel's `subscribers` in a gasless, immediate and onchain manner.
 
 #### 1) x-EVM Channel
 This `channel` template provides OOTB support for pushing notifications from Dapp's backends to any channel's subscriber EOA EVM address regardless of the EVM chain. check the [source-code](./contracts/source-codes/evm-channel.js) | [state](./contracts/states/evm-channel.json)
@@ -73,4 +83,4 @@ Follow Us
 
 Licensing
 =========
-All of 1notif open-sourced codes go under the GPL-3.0 license. [Read the license](./LICENSE)
+This repository is licensed under the GPL-3.0 license. [Read the license](./LICENSE)
